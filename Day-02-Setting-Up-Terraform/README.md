@@ -31,5 +31,5 @@ aws configure list
 ```
 
 ---
-## ✅ Day 02 Complete!
+## Day 02 Complete!
 Next up: **Day 03 - Understanding Terraform Providers**
