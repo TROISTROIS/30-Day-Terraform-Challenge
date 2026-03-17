@@ -27,8 +27,9 @@ aws sts get-caller-identity
 ### 4. Inspect AWS Profile Configuration
 List the configuration settings for the specific admin profile used in this project.
 ```bash
-aws configure list --profile IAMAdmin-Prod
+aws configure list 
 ```
 
 ---
-*This is part of the 30-Day Terraform Challenge.*
+## ✅ Day 02 Complete!
+Next up: **Day 03 - Understanding Terraform Providers**
