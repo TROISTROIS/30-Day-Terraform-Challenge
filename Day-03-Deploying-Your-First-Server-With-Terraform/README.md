@@ -4,6 +4,11 @@
 
 In this challenge, we deploy a basic web server on AWS using Terraform. The infrastructure consists of an EC2 instance running a simple web server and a security group to allow external access.
 
+## Architecture Diagram
+
+![Day 3 Architecture Diagram](Day3.drawio.png)
+
+
 ## Features
 
 - **AWS Provider**: Configured for the `us-east-1` region.
