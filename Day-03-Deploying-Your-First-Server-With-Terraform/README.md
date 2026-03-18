@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-In this challenge, we deploy a basic web server on AWS using Terraform. The infrastructure consists of an EC2 instance running a simple "Hello World" style web server and a security group to allow external access.
+In this challenge, we deploy a basic web server on AWS using Terraform. The infrastructure consists of an EC2 instance running a simple web server and a security group to allow external access.
 
 ## Features
 
