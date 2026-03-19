@@ -1,6 +1,6 @@
 output "region" {
     description = "AWS region"
-    value = data.aws_region.current.name
+    value = data.aws_region.current.id
 }
 
 output "AZs" {
