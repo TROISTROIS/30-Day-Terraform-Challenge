@@ -31,7 +31,7 @@ variable "Subnet4_CIDR" {
 variable "IGW_destination_IP" {
     description = "Destination of the IGW"
     type = string 
-    default = "0.0.0.0./0"
+    default = "0.0.0.0/0"
 }
 
 variable "ELB_sg" {
