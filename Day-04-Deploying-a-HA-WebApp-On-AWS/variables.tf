@@ -33,3 +33,57 @@ variable "IGW_destination_IP" {
     type = string 
     default = "0.0.0.0./0"
 }
+
+variable "ELB_sg" {
+    description = "ELB security group"
+    type = string
+    default = "ELB_sg"
+}
+
+variable "ELB_Port" {
+    description = "ELB Port"
+    type = number
+    default = 80
+}
+
+variable "EC2_sg" {
+    description = "EC2 security group"
+    type = string
+    default = "EC2_sg"
+}
+
+variable "Server_Port" {
+    description = "EC2 Port"
+    type = number
+    default = 8080
+}
+
+variable "Target_Group" {
+    description = "LB target group"
+    type = string
+    default = "LB-TargetGroup"
+}
+
+variable "EC2AMI" {
+    description = "AMI for EC2 launch"
+    type = string
+    default = "ami-0ec10929233384c7f"
+}
+
+variable "ASG" {
+    description = "Autoscaling group"
+    type = string
+    default = "ASG-Day4"
+}
+
+variable "minServers" {
+    description = "Minimum number of servers"
+    type = number
+    default = 2
+}
+
+variable "maxServers" {
+    description = "Maximum number of servers"
+    type = number
+    default = 5
+}
