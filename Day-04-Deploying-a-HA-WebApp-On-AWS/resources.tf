@@ -81,7 +81,7 @@ resource "aws_security_group" "ELB_sg" {
     }
 }
 
-resource "aws_security_group_ingress" "ELB_sg_ingress" {
+resource "aws_vpc_security_group_ingress_rule" "ELB_sg_ingress" {
     description = "ELB Security Group Ingress"
     cidr_ipv4 = var.IGW_destination_IP
     from_port = var.ELB_Port
@@ -102,9 +102,9 @@ resource "aws_security_group" "EC2_sg" {
     }
 }
 
-resource "aws_security_group_ingress" "EC2_sg_ingress" {
+resource "aws_vpc_security_group_ingress_rule" "EC2_sg_ingress" {
     description = "EC2 Security Group Ingress"
-    referenced_security_group = aws_security_group.ELB_sg.id
+    referenced_security_group_id = aws_security_group.ELB_sg.id
     from_port = var.Server_Port
     to_port = var.Server_Port
     ip_protocol = "tcp"
@@ -115,7 +115,7 @@ resource "aws_security_group_ingress" "EC2_sg_ingress" {
 }
 
 resource "aws_lb" "ELB" {
-    subnets = [for subnet in aws_subnet.public : subnet.id]
+    subnets = [aws_subnet.Day4_Subnet1.id,aws_subnet.Day4_Subnet2.id]
     security_groups = [aws_security_group.ELB_sg.id]
     name = "ELB-Day4"
     tags = {
