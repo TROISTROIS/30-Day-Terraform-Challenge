@@ -17,13 +17,13 @@ variable "Subnet2_CIDR" {
 }
 
 variable "Subnet3_CIDR" {
-    description = "The Subnet1 CIDR"
+    description = "The Subnet3 CIDR"
     type = string
     default = "10.0.2.0/24"
 }
 
 variable "Subnet4_CIDR" {
-    description = "The Subnet2 CIDR"
+    description = "The Subnet4 CIDR"
     type = string
     default = "10.0.3.0/24"
 }
@@ -64,10 +64,22 @@ variable "Target_Group" {
     default = "LB-TargetGroup"
 }
 
+variable "AMI" {
+    description = "AMI name"
+    type = string
+    default = "AMI"
+}
+
 variable "EC2AMI" {
     description = "AMI for EC2 launch"
     type = string
     default = "ami-0ec10929233384c7f"
+}
+
+variable "InstanceType" {
+    description = "EC2 Instance Type"
+    type = string
+    default = "t2.micro"
 }
 
 variable "ASG" {
