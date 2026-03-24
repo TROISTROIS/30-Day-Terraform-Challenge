@@ -9,6 +9,7 @@ This 30-day Terraform challenge was organized by AWS AI/ML UserGroup Kenya, Meru
 | **01** | **SetUp Terraform Environment** | Setting up the local dev environment and deploying a basic AWS VPC with public and private subnets. | [Day 01](./Day-01-SetUp-Terraform-Environment/) |
 | **02** | **Setting Up Terraform Environment** | Verifying Terraform and AWS CLI installation and configuring AWS credentials. | [Day 02](./Day-02-Setting-Up-Terraform/) |
 | **03** | **Deploying Your First Server With Terraform** | Deploying a basic web server on AWS using a `t2.micro` instance and a security group. | [Day 03](./Day-03-Deploying-Your-First-Server-With-Terraform/) |
+| **04** | **Deploying a HA WebApp On AWS** | Scaling and high-availability infrastructure using Application Load Balancer and Auto Scaling Group. | [Day 04](./Day-04-Deploying-a-HA-WebApp-On-AWS/) |
 
 ## Prerequisites
 - [Terraform CLI](https://developer.hashicorp.com/terraform/downloads)
@@ -19,6 +20,7 @@ This 30-day Terraform challenge was organized by AWS AI/ML UserGroup Kenya, Meru
 - `Day-01-SetUp-Terraform-Environment/`: Infrastructure for Day 1.
 - `Day-02-Setting-Up-Terraform/`: Environment setup for Day 2.
 - `Day-03-Deploying-Your-First-Server-With-Terraform/`: First server deployment for Day 3.
+- `Day-04-Deploying-a-HA-WebApp-On-AWS/`: High Availability infrastructure for Day 4.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
