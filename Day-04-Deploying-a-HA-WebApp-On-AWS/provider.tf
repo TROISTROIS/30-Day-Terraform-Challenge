@@ -1,3 +1,3 @@
 provider "aws" {
-    profile = "IAMAdmin-GEN"
+    profile = "general"
 }
