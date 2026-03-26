@@ -54,7 +54,7 @@ Once the infrastructure is deployed, you can verify the setup by following these
 
 1. View the Terraform outputs to get the Load Balancer DNS name:
    ```bash
-   terraform outputs
+   terraform output
    ```
 
 2. Use `curl` to send a request to the Load Balancer DNS:
