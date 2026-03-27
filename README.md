@@ -4,12 +4,13 @@ This 30-day Terraform challenge was organized by AWS AI/ML UserGroup Kenya, Meru
 
 ## Challenge Progression
 
-| Day | Task Title | Description | Link |
-| :--- | :--- | :--- | :--- |
-| **01** | **SetUp Terraform Environment** | Setting up the local dev environment and deploying a basic AWS VPC with public and private subnets. | [Day 01](./Day-01-SetUp-Terraform-Environment/) |
-| **02** | **Setting Up Terraform Environment** | Verifying Terraform and AWS CLI installation and configuring AWS credentials. | [Day 02](./Day-02-Setting-Up-Terraform/) |
-| **03** | **Deploying Your First Server With Terraform** | Deploying a basic web server on AWS using a `t2.micro` instance and a security group. | [Day 03](./Day-03-Deploying-Your-First-Server-With-Terraform/) |
-| **04** | **Deploying a HA WebApp On AWS** | Scaling and high-availability infrastructure using Application Load Balancer and Auto Scaling Group. | [Day 04](./Day-04-Deploying-a-HA-WebApp-On-AWS/) |
+| Day | Task Detail | Repository Link |
+| :--- | :--- | :--- |
+| **01** | **SetUp Terraform Environment**: Setting up the local dev environment and deploying a basic AWS VPC. | [Day 01](./Day-01-SetUp-Terraform-Environment/) |
+| **02** | **Setting Up Terraform Environment**: Verifying Terraform/AWS CLI installation and configuring credentials. | [Day 02](./Day-02-Setting-Up-Terraform/) |
+| **03** | **Deploying First Server**: Deploying a basic web server on AWS using a `t2.micro` instance. | [Day 03](./Day-03-Deploying-Your-First-Server-With-Terraform/) |
+| **04** | **High Availability WebApp**: Scaling infrastructure using Application Load Balancer and Auto Scaling Group. | [Day 04](./Day-04-Deploying-a-HA-WebApp-On-AWS/) |
+| **05** | **Understanding State**: Exploring state management, manual tampering, and observing state drift. | [Day 05](./Day-05-Scaling-Infrastructure-and-Understanding-Terraform-State/) |
 
 ## Prerequisites
 - [Terraform CLI](https://developer.hashicorp.com/terraform/downloads)
@@ -21,6 +22,7 @@ This 30-day Terraform challenge was organized by AWS AI/ML UserGroup Kenya, Meru
 - `Day-02-Setting-Up-Terraform/`: Environment setup for Day 2.
 - `Day-03-Deploying-Your-First-Server-With-Terraform/`: First server deployment for Day 3.
 - `Day-04-Deploying-a-HA-WebApp-On-AWS/`: High Availability infrastructure for Day 4.
+- `Day-05-Scaling-Infrastructure-and-Understanding-Terraform-State/`: Scaling and state management experiments for Day 5.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
