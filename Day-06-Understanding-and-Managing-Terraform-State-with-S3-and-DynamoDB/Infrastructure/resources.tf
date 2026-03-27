@@ -1,3 +1,14 @@
+terraform {
+    backend "s3" {
+        bucket = "day-6-bucket-zn"
+        key = "global/s3/terraform.tfstate"
+        region = "us-east-1"
+        use_lockfile = true
+        profile = "IAMAdmin-GEN"
+        encrypt = true
+    }
+}
+
 resource "aws_iam_role" "IAM-role" {
     name = var.lambdarole
     assume_role_policy = data.aws_iam_policy_document.lambda_role.json
