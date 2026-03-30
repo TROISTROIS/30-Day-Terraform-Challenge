@@ -1,10 +1,10 @@
-# 🚀 Day 06: Understanding and Managing Terraform State with S3 and DynamoDB
+# Day 06: Understanding and Managing Terraform State with S3 and DynamoDB
 
 Welcome to **Day 06** of the 30-Day Terraform Challenge! Today's session was a deep dive into one of Terraform's most critical concepts: **State Management**. We explored how to move away from local state files to a robust, secure, and collaborative remote state backend using AWS S3 and DynamoDB.
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 In this challenge, I transitioned from managing state locally (which is risky for teams and production) to a production-grade remote backend. This setup ensures that:
 - **Durability:** State is stored in S3 with versioning enabled.
@@ -13,7 +13,7 @@ In this challenge, I transitioned from managing state locally (which is risky fo
 
 ---
 
-## 🏗️ Architecture & Components
+## Architecture & Components
 
 The project is split into two main sections:
 
@@ -31,7 +31,7 @@ The actual workload being deployed:
 
 ---
 
-## 🔍 Deep Investigation: Managing State
+## Deep Investigation: Managing State
 
 A major part of today's challenge was a "Deep Investigation" into inspection and manipulation of the Terraform state. These commands are essential for troubleshooting and auditing.
 
@@ -43,7 +43,7 @@ A major part of today's challenge was a "Deep Investigation" into inspection and
 
 ---
 
-## 🛠️ Step-by-Step implementation
+## Step-by-Step implementation
 
 Follow these steps to replicate the setup:
 
@@ -76,10 +76,10 @@ To avoid unnecessary costs, clean up the resources in the following order:
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 - **The State is the Source of Truth:** Terraform relies on it to know what exists in the real world.
 - **Never Commit `terraform.tfstate`:** Always use a remote backend for safety and collaboration.
 - **Locking is Critical:** Prevents two users from applying changes at the same time and corrupting the state file.
 
 ---
-*Stay tuned for Day 07 as we continue this Terraform journey!* 🚀
+*Stay tuned for Day 07 as we continue this Terraform journey!* 
