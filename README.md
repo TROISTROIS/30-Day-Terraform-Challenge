@@ -12,6 +12,7 @@ This 30-day Terraform challenge was organized by AWS AI/ML UserGroup Kenya, Meru
 | **04** | **High Availability WebApp**: Scaling infrastructure using Application Load Balancer and Auto Scaling Group. | [Day 04](./Day-04-Deploying-a-HA-WebApp-On-AWS/) |
 | **05** | **Understanding State**: Exploring state management, manual tampering, and observing state drift. | [Day 05](./Day-05-Scaling-Infrastructure-and-Understanding-Terraform-State/) |
 | **06** | **Remote State Management**: Using S3 bucket for state storage and DynamoDB for state locking. | [Day 06](./Day-06-Understanding-and-Managing-Terraform-State-with-S3-and-DynamoDB/) |
+| **07** | **State Isolation: Workspaces vs-File Layouts**: Using Terraform workspaces and file layouts for state isolation. | [Day 07](./Day-07-Terraform%20State%20Isolation-Workspaces-vs-File%20Layouts/) |
 
 ## Prerequisites
 - [Terraform CLI](https://developer.hashicorp.com/terraform/downloads)
@@ -25,6 +26,7 @@ This 30-day Terraform challenge was organized by AWS AI/ML UserGroup Kenya, Meru
 - `Day-04-Deploying-a-HA-WebApp-On-AWS/`: High Availability infrastructure for Day 4.
 - `Day-05-Scaling-Infrastructure-and-Understanding-Terraform-State/`: Scaling and state management experiments for Day 5.
 - `Day-06-Understanding-and-Managing-Terraform-State-with-S3-and-DynamoDB/`: Remote state management using S3 and DynamoDB for Day 6.
+- `Day-07-Terraform State Isolation-Workspaces-vs-File Layouts/`: Using Terraform workspaces and file layouts for state isolation for Day 7.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
