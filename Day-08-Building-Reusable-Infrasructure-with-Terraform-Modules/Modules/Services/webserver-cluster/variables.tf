@@ -3,23 +3,17 @@ variable "cluster_name" {
     type = string
 }
 
-variable "db_remote_state_bucket" {
-    description = "The name of the s3 bucket for the DB's remote state"
-    type = string
-}
-
-variable "db_remote_state_key" {
-    description = "The path to the DB's remote state in S3"
-    type = string
-}
-
-variable "port_number" {
-    description = "The port number on which the Web Server is listening"
-    type = number
-    default = 8080
-}
-
 variable "instance_type" {
     description = "The type of ec2 instances to run"
     type = string 
+}
+
+variable "db_endpoint" {
+    description = "The RDS's endpoint to connect to"
+    type = string
+}
+
+variable "db_port" {
+    description = "The port the database is listening on"
+    type = string
 }
