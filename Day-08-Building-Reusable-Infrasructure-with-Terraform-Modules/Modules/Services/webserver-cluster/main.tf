@@ -1,7 +1,7 @@
 resource "aws_instance" "day08_server" {
     ami = "ami-0ec10929233384c7f"
     instance_type = var.instance_type
-    vpc_security_group_ids = [aws_security_group.alb.id]
+    vpc_security_group_ids = [aws_security_group.day08SG.id]
 
     user_data = templatefile("${path.module}/user-data.sh", {
         server_port = local.server_port
@@ -16,9 +16,8 @@ resource "aws_instance" "day08_server" {
     }
 }
 
-resource "aws_security_group" "alb" {
-    name = "${var.cluster_name}-alb"
-
+resource "aws_security_group" "day08SG" {
+    name = "web-server-SG"
     ingress {
         from_port = local.http_port
         to_port = local.http_port
