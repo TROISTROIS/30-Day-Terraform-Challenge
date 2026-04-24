@@ -6,7 +6,7 @@ provider "aws" {
 #  1. create s3 bucket
 resource aws_s3_bucket "terraform_state_bucket" {
     bucket = "backend-bucket-zn"
-
+    force_destroy = true
     # prevent accidental deletion of this bucket
     lifecycle {
         prevent_destroy = false
