@@ -19,8 +19,8 @@ resource "aws_instance" "day08_server" {
 resource "aws_security_group" "day08SG" {
     name = "web-server-SG"
     ingress {
-        from_port = local.http_port
-        to_port = local.http_port
+        from_port = local.server_port
+        to_port = local.server_port
         protocol = local.tcp_protocol
         cidr_blocks = local.all_ips
     }
