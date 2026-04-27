@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 module "webserver" {
-    source = "../../../modules/services/webserver"
+    source = "github.com/TROISTROIS/30-day-terraform-modules.git//services/webserver?ref=v0.0.1"
 
     VPC_name = "Day9"
     VPC_CIDR = "10.0.0.0/16"
