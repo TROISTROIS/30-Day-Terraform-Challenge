@@ -14,6 +14,7 @@ This 30-day Terraform challenge was organized by AWS AI/ML UserGroup Kenya, Meru
 | **06** | **Remote State Management**: Using S3 bucket for state storage and DynamoDB for state locking. | [Day 06](./Day-06-Understanding-and-Managing-Terraform-State-with-S3-and-DynamoDB/) |
 | **07** | **State Isolation: Workspaces vs-File Layouts**: Using Terraform workspaces and file layouts for state isolation. | [Day 07](./Day-07-Terraform%20State%20Isolation-Workspaces-vs-File%20Layouts/) |
 | **08** | **Building Reusable Infrastructure with Terraform Modules**: Abstracting infrastructure into reusable and maintainable modules. | [Day 08](./Day-08-Building-Reusable-Infrasructure-with-Terraform-Modules/) |
+| **09** | **Advanced Terraform Modules**: Advanced Terraform modules, versioning gotchas, and multi-environment reuse. | [Day 09](./Day-09-Advanced-Terraform-Modules-Versioning-Gotchas-and-MultiEnv-Reuse/) |
 
 ## Prerequisites
 - [Terraform CLI](https://developer.hashicorp.com/terraform/downloads)
@@ -29,6 +30,7 @@ This 30-day Terraform challenge was organized by AWS AI/ML UserGroup Kenya, Meru
 - `Day-06-Understanding-and-Managing-Terraform-State-with-S3-and-DynamoDB/`: Remote state management using S3 and DynamoDB for Day 6.
 - `Day-07-Terraform State Isolation-Workspaces-vs-File Layouts/`: Using Terraform workspaces and file layouts for state isolation for Day 7.
 - `Day-08-Building-Reusable-Infrasructure-with-Terraform-Modules/`: Building reusable infrastructure with Terraform modules for Day 8.
+- `Day-09-Advanced-Terraform-Modules-Versioning-Gotchas-and-MultiEnv-Reuse/`: Advanced Terraform modules, versioning gotchas, and multi-environment reuse for Day 9.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
