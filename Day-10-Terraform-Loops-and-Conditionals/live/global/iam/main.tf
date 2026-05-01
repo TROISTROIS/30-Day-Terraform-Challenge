@@ -3,7 +3,8 @@ provider "aws" {
     region = "us-east-1"
 }
 
-resource "aws_iam_user" "IAMuser" {
+module "IAMusers" {
+    source = "github.com/TROISTROIS/30-day-terraform-modules.git//landing-zone/iam-user?ref=v0.1.0"
     count = length(var.user_names)
-    name = var.user_names[count.index]
+    user_name = var.user_names[count.index]
 }
