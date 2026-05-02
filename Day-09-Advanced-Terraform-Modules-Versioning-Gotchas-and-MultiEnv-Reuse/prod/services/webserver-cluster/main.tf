@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 module "webserver" {
-    source = "github.com/TROISTROIS/30-day-terraform-modules.git//services/webserver?ref=v0.0.4"
+    source = "github.com/TROISTROIS/30-day-terraform-modules.git//services/webserver?ref=v0.1.1"
 
     VPC_name = "Day9-Prod"
     VPC_CIDR = "10.1.0.0/16"
@@ -17,6 +17,11 @@ module "webserver" {
     maxServers = 5
     InstanceType = "t2.micro"
     Environment = "Prod"
+
+    custom_tags = {
+        Owner = "team-GEN"
+        ManagedBy = "terraform"
+    }
 }
 
 # In production, use a schedule to scale the servers
@@ -25,7 +30,7 @@ resource "aws_autoscaling_schedule" "scale_out" {
     min_size = 1
     max_size = 4
     desired_capacity = 4
-    recurrence = "50 10 * * *"
+    recurrence = "42 07 * * *"
     autoscaling_group_name = module.webserver.ASG_name
 }
 
@@ -34,7 +39,7 @@ resource "aws_autoscaling_schedule" "scale_in" {
     min_size = 1
     max_size = 4
     desired_capacity = 1
-    recurrence = "10 11 * * *"
+    recurrence = "57 07 * * *"
     autoscaling_group_name = module.webserver.ASG_name
 }
 
