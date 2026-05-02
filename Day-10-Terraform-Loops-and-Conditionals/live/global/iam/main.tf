@@ -3,8 +3,19 @@ provider "aws" {
     region = "us-east-1"
 }
 
+# module "IAMusers" {
+#     source = "github.com/TROISTROIS/30-day-terraform-modules.git//landing-zone/iam-user?ref=v0.1.0"
+#     count = length(var.user_names)
+#     user_name = var.user_names[count.index]
+# }
+
+# resource "aws_iam_user" "IAMusers" {
+#     for_each = toset(var.user_names)
+#     name = each.value
+# }
+
 module "IAMusers" {
     source = "github.com/TROISTROIS/30-day-terraform-modules.git//landing-zone/iam-user?ref=v0.1.0"
-    count = length(var.user_names)
-    user_name = var.user_names[count.index]
+    for_each = toset(var.user_names)
+    user_name = each.value
 }
