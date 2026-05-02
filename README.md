@@ -15,6 +15,7 @@ This 30-day Terraform challenge was organized by AWS AI/ML UserGroup Kenya, Meru
 | **07** | **State Isolation: Workspaces vs-File Layouts**: Using Terraform workspaces and file layouts for state isolation. | [Day 07](./Day-07-Terraform%20State%20Isolation-Workspaces-vs-File%20Layouts/) |
 | **08** | **Building Reusable Infrastructure with Terraform Modules**: Abstracting infrastructure into reusable and maintainable modules. | [Day 08](./Day-08-Building-Reusable-Infrasructure-with-Terraform-Modules/) |
 | **09** | **Advanced Terraform Modules**: Advanced Terraform modules, versioning gotchas, and multi-environment reuse. | [Day 09](./Day-09-Advanced-Terraform-Modules-Versioning-Gotchas-and-MultiEnv-Reuse/) |
+| **10** | **Terraform Loops and Conditionals**: Managing multiple resources efficiently using loops and conditionals. | [Day 10](./Day-10-Terraform-Loops-and-Conditionals/) |
 
 ## Prerequisites
 - [Terraform CLI](https://developer.hashicorp.com/terraform/downloads)
@@ -31,6 +32,7 @@ This 30-day Terraform challenge was organized by AWS AI/ML UserGroup Kenya, Meru
 - `Day-07-Terraform State Isolation-Workspaces-vs-File Layouts/`: Using Terraform workspaces and file layouts for state isolation for Day 7.
 - `Day-08-Building-Reusable-Infrasructure-with-Terraform-Modules/`: Building reusable infrastructure with Terraform modules for Day 8.
 - `Day-09-Advanced-Terraform-Modules-Versioning-Gotchas-and-MultiEnv-Reuse/`: Advanced Terraform modules, versioning gotchas, and multi-environment reuse for Day 9.
+- `Day-10-Terraform-Loops-and-Conditionals/`: Using loops and conditionals to manage multiple resources for Day 10.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
