@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 module "webserver_cluster" {
-    source = "github.com/TROISTROIS/30-day-terraform-modules.git//services/webserver?ref=v0.4.3"
+    source = "github.com/TROISTROIS/30-day-terraform-modules.git//services/webserver?ref=v0.4.8"
     VPC_name = "Day11-Stage"
     VPC_CIDR = "10.0.0.0/16"
     AZs = 2

@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 module "webserver_cluster" {
-    source = "github.com/TROISTROIS/30-day-terraform-modules.git//services/webserver?ref=v0.4.3"
+    source = "github.com/TROISTROIS/30-day-terraform-modules.git//services/webserver?ref=v0.4.8"
     VPC_name = "Day11-Prod"
     VPC_CIDR = "10.0.0.0/24"
     AZs = 2
@@ -14,5 +14,5 @@ module "webserver_cluster" {
     minServers = 2
     maxServers = 5
     Environment = "Production"
-    enable_autoscaling = true
+    enable_autoscaling = false
 }
