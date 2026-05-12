@@ -18,6 +18,7 @@ This 30-day Terraform challenge was organized by AWS AI/ML UserGroup Kenya, Meru
 | **10** | **Terraform Loops and Conditionals**: Managing multiple resources efficiently using loops and conditionals. | [Day 10](./Day-10-Terraform-Loops-and-Conditionals/) |
 | **11** | **Terraform Conditionals**: Managing dynamic infrastructure creation using conditionals, count, and loops. | [Day 11](./Day-11-Terraform-Conditionals/) |
 | **12** | **Zero-Downtime Deployments**: Performing infrastructure updates without service interruption. | [Day 12](./Day-12-Zero-Downtime-deployments-with-Terraform/) |
+| **13** | **Managing Sensitive Data Securely in Terraform**: Using AWS Secrets Manager and reusable modules to keep credentials out of Terraform source and state. | [Day 13](./Day-13-Managing-Sensitive-Data-Securely-in-Terraform/) |
 
 ## Prerequisites
 - [Terraform CLI](https://developer.hashicorp.com/terraform/downloads)
@@ -37,6 +38,7 @@ This 30-day Terraform challenge was organized by AWS AI/ML UserGroup Kenya, Meru
 - `Day-10-Terraform-Loops-and-Conditionals/`: Using loops and conditionals to manage multiple resources for Day 10.
 - `Day-11-Terraform-Conditionals/`: Using conditionals to manage dynamic resource creation for Day 11.
 - `Day-12-Zero-Downtime-deployments-with-Terraform/`: Zero-downtime deployment strategies for Day 12.
+- `Day-13-Managing-Sensitive-Data-Securely-in-Terraform/`: Securely managing sensitive data and secrets in Terraform for Day 13.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
