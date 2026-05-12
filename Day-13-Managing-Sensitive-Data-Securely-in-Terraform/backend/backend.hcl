@@ -1,5 +1,3 @@
-bucket = "bucket"
-region = "us-east-1"
-profile = "profile"
+bucket = "day-13-bucket"
 use_lockfile = true
 encrypt = true
