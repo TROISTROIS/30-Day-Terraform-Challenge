@@ -1,5 +1,5 @@
-terraform {
-    backend "s3" {
-        key = "live/prod/services/datasources/mysql/terraform.tfstate"
-    }
-}
+# terraform {
+#     backend "s3" {
+#         key = "live/prod/services/datasources/mysql/terraform.tfstate"
+#     }
+# }
