@@ -5,7 +5,7 @@ output "region1" {
 
 output "region2" {
     description = "The name of Region 2"
-    value = data.aws_region.region_2
+    value = data.aws_region.region_2.name
 }
 
 output "instance_region1_az" {
