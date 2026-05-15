@@ -14,7 +14,7 @@ data "aws_ami" "ubuntu_region1" {
 
     filter {
       name = "name"
-      values = ["ubuntu/images/hvm-ssd/ubuntu-focal-26.04-amd64-server-*"]
+      values = ["ubuntu/images/hvm-ssd/ubuntu-focal-24.04-amd64-server-*"]
     }
 }
 
@@ -26,6 +26,6 @@ data "aws_ami" "ubuntu_region2" {
 
     filter {
       name = "name"
-      values = ["ubuntu/images/hvm-ssd/ubuntu-focal-26.04-amd64-server-*"]
+      values = ["ubuntu/images/hvm-ssd/ubuntu-focal-24.04-amd64-server-*"]
     }
 }
