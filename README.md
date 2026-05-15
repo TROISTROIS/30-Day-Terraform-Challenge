@@ -19,6 +19,7 @@ This 30-day Terraform challenge was organized by AWS AI/ML UserGroup Kenya, Meru
 | **11** | **Terraform Conditionals**: Managing dynamic infrastructure creation using conditionals, count, and loops. | [Day 11](./Day-11-Terraform-Conditionals/) |
 | **12** | **Zero-Downtime Deployments**: Performing infrastructure updates without service interruption. | [Day 12](./Day-12-Zero-Downtime-deployments-with-Terraform/) |
 | **13** | **Managing Sensitive Data Securely in Terraform**: Using AWS Secrets Manager and reusable modules to keep credentials out of Terraform source and state. | [Day 13](./Day-13-Managing-Sensitive-Data-Securely-in-Terraform/) |
+| **14** | **Working with Multiple Providers**: Deploying infrastructure across multiple AWS provider configurations and regions using reusable modules and remote state. | [Day 14](./Day-14-Working-with-Multiple-Providers-Part-1/) |
 
 ## Prerequisites
 - [Terraform CLI](https://developer.hashicorp.com/terraform/downloads)
@@ -39,6 +40,7 @@ This 30-day Terraform challenge was organized by AWS AI/ML UserGroup Kenya, Meru
 - `Day-11-Terraform-Conditionals/`: Using conditionals to manage dynamic resource creation for Day 11.
 - `Day-12-Zero-Downtime-deployments-with-Terraform/`: Zero-downtime deployment strategies for Day 12.
 - `Day-13-Managing-Sensitive-Data-Securely-in-Terraform/`: Securely managing sensitive data and secrets in Terraform for Day 13.
+- `Day-14-Working-with-Multiple-Providers-Part-1/`: Using multiple AWS provider configurations, provider aliases, and reusable modules for multi-region deployment.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
