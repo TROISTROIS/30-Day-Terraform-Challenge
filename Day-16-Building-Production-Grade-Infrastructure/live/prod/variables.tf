@@ -1,7 +1,7 @@
 variable "bucket_name" {
     description = "The name of the backend S3 state bucket"
     type = string
-    default = "prod-grade-infra-fn"
+    default = "prod-grade-infra-fn-prod"
 }
 
 variable "dynamodb_name" {
