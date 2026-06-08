@@ -1,3 +1,3 @@
-bucket = "prod-grade-infra-zn"
+bucket = "prod-grade-infra-fn-prod"
 use_lockfile = true
 encrypt = true
